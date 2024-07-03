@@ -16,5 +16,8 @@
     "express": "^4.19.2",
     "mysql2": "^3.10.2",
     "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.7"
   }
 }
