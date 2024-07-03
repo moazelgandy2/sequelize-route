@@ -1,5 +1,5 @@
 import User from "../../../db/model/user.model.js";
-import bcrypt from "bcrypt";
+import * as bcrypt from "bcryptjs";
 
 const addUser = async (req, res) => {
   const { userName, email, password } = req.body;
