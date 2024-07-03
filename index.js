@@ -1,12 +1,15 @@
 import express from "express";
 
 import db from "./db/connect.js";
+
 import userRouter from "./src/modules/users/user.routes.js";
 import postRouter from "./src/modules/posts/post.routes.js";
 import commentRouter from "./src/modules/comments/comment.routes.js";
 
 const app = express();
 const port = 3000;
+
+db();
 
 app.use(express.json());
 

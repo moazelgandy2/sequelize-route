@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize(
-  `mysql://avnadmin:AVNS_TToFYD07zvFZ9k5bBhc@quiz-app-moazhazem2211-b44b.j.aivencloud.com:25926/defaultdb?ssl-mode=REQUIRED`
+  `mysql://avnadmin:AVNS_TToFYD07zvFZ9k5bBhc@quiz-app-moazhazem2211-b44b.j.aivencloud.com:25926/defaultdb`
 );
 
 const db = async () => {
